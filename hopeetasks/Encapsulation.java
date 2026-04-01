@@ -3,6 +3,8 @@ public class Encapsulation {
         System.out.println("Hello worldd!!!!!");
         System.out.println("I love big black crows:)");
 
-
+            abstract method=neww ;
+        
         }
 }   
+x

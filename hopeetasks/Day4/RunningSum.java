@@ -13,6 +13,7 @@ public class RunningSum {
         System.out.println("Enter elements:");
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
+
         }
 
         for (int i = 1; i < n; i++) {
@@ -23,6 +24,8 @@ public class RunningSum {
         for (int i = 0; i < n; i++) {
             System.out.print(nums[i] + " ");
         }
-        sc.close();
+        sc.close(); 
     }
 }
+
+
