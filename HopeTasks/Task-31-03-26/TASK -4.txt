@@ -1,0 +1,21 @@
+TASK -4 
+two catch block(1 general,1 specific) why it is not possible?
+
+Java follows top-down exception matching:
+
+It checks catch blocks from top to bottom
+Once a match is found → remaining blocks are ignored
+try {
+    int a = 10 / 0;
+}
+catch (Exception e) {              // General exception
+    System.out.println("General Exception");
+}
+catch (ArithmeticException e) {    // Specific exception
+    System.out.println("Arithmetic Exception");
+}
+ArithmeticException is a subclass of Exception
+The first catch (Exception e) already handles ALL exceptions
+So the second catch block will never execute
+
+This leads to a compile-time error.
