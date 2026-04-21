@@ -1,0 +1,7 @@
+JDBC
+    -> Java Data Base Connector
+    -> It is an API not a DataBase
+    -> It is a DriverManagaer
+
+Architecture of JDBC    
+    JDBC -> java -> Jar file of SQL (Depends on Use Case) -> DriverManagaer9 -> Data is stored or retrieved(CRUD) -> java
